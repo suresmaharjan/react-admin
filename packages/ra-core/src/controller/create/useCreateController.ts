@@ -79,13 +79,18 @@ export const useCreateController = <
     const save = useCallback(
         (
             data: Partial<RecordType>,
-            {
+            effects = {
+                onSuccess: undefined,
+                onError: undefined,
+                transform: undefined,
+            }
+        ) => {
+            const {
                 onSuccess: onSuccessFromSave,
                 onError: onErrorFromSave,
                 transform: transformFromSave,
-            } = {}
-        ) =>
-            Promise.resolve(
+            } = effects;
+            return Promise.resolve(
                 transformFromSave
                     ? transformFromSave(data)
                     : transform
@@ -140,7 +145,8 @@ export const useCreateController = <
                               },
                     }
                 );
-            }),
+            });
+        },
         [
             create,
             finalRedirectTo,

@@ -6930,21 +6930,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react-dom@npm:>=16.9.0, @types/react-dom@npm:^17.0.9":
-  version: 17.0.11
-  resolution: "@types/react-dom@npm:17.0.11"
+"@types/react-dom@npm:>=16.9.0, @types/react-dom@npm:^18.0.0":
+  version: 18.0.11
+  resolution: "@types/react-dom@npm:18.0.11"
   dependencies:
     "@types/react": "*"
-  checksum: afd57cfd7c6ffbd5f71e6fbfb130323e938cc914b699513be7e69d7d59d3b0e332b15e5379c1e58b9f7f71fc48c0cbdcd5301e1a0017540b53c6152e150e2fee
-  languageName: node
-  linkType: hard
-
-"@types/react-dom@npm:^18.0.7":
-  version: 18.0.8
-  resolution: "@types/react-dom@npm:18.0.8"
-  dependencies:
-    "@types/react": "*"
-  checksum: e5e18d30a272b799e7579929b27f8cd078c5ee92cc11a4be80b63d9f4330d22c97cc2aeb89945fc8e88d59a92438fa89f37ac92021665021988ed56cb864b424
+  checksum: 8bf1e3f710221a937613df4d192f3b9e5a30e5c3103cac52c5210fb56b79f7a8cc66137d3bc5c9d92d375165a97fae53284724191bc01cb9898564fa02595569
   languageName: node
   linkType: hard
 
@@ -6996,25 +6987,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:*, @types/react@npm:>=16.9.0, @types/react@npm:^17.0.20":
-  version: 17.0.38
-  resolution: "@types/react@npm:17.0.38"
+"@types/react@npm:*, @types/react@npm:>=16.9.0, @types/react@npm:^18.0.0":
+  version: 18.0.28
+  resolution: "@types/react@npm:18.0.28"
   dependencies:
     "@types/prop-types": "*"
     "@types/scheduler": "*"
     csstype: ^3.0.2
-  checksum: 828cd27ac220be8232535c4451b0020f6f05535d62407e5fe2547544a7d3123777ed31ab547d7c7f3d8b59d37268ee4b9209f1c110809f084cbbf0a7e27cd7ef
-  languageName: node
-  linkType: hard
-
-"@types/react@npm:^18.0.22":
-  version: 18.0.24
-  resolution: "@types/react@npm:18.0.24"
-  dependencies:
-    "@types/prop-types": "*"
-    "@types/scheduler": "*"
-    csstype: ^3.0.2
-  checksum: 8ea907a8f944421a120f4db9fe52fe3752837e11031ff16b866e835adebb09b2b2ca3ac5f8aa622683778f6d40f791a369c9008c45537c1a7eb64347648fae3c
+  checksum: 6d94ec25c18b39aac687814b3a717e767f2fba3289c3b682caa4d0182160a72a9816a612b5a207c8ea73f1d288019f56f3d08742ac7cfff91719abb77da9d11a
   languageName: node
   linkType: hard
 
@@ -11285,8 +11265,8 @@ __metadata:
     "@types/jest": ^26.0.19
     "@types/node": ^12.12.14
     "@types/prop-types": ^15.6.0
-    "@types/react": ^17.0.20
-    "@types/react-dom": ^17.0.9
+    "@types/react": ^18.0.0
+    "@types/react-dom": ^18.0.0
     "@types/recharts": ^1.8.10
     "@vitejs/plugin-react": ^2.2.0
     clsx: ^1.1.1
@@ -11309,10 +11289,10 @@ __metadata:
     ra-input-rich-text: ^4.0.0
     ra-language-english: ^4.0.0
     ra-language-french: ^4.0.0
-    react: ^17.0.0
+    react: ^18.0.0
     react-admin: ^4.0.0
     react-app-polyfill: ^2.0.0
-    react-dom: ^17.0.0
+    react-dom: ^18.0.0
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
     recharts: ^2.1.15
@@ -18727,9 +18707,9 @@ __metadata:
     "@vitejs/plugin-react": ^2.2.0
     ra-data-local-storage: ^4.0.0
     ra-no-code: ^4.0.0
-    react: ^17.0.0
+    react: ^18.0.0
     react-admin: ^4.0.0
-    react-dom: ^17.0.0
+    react-dom: ^18.0.0
     typescript: ^4.4.0
     vite: ^3.2.0
   languageName: unknown
@@ -21616,7 +21596,7 @@ __metadata:
     "@types/jest": ^26.0.19
     "@types/node": ^17.0.8
     "@types/node-polyglot": ^0.4.31
-    "@types/react": ^17.0.20
+    "@types/react": ^18.0.0
     clsx: ^1.1.1
     cross-env: ^5.2.0
     date-fns: ^2.19.0
@@ -21629,8 +21609,8 @@ __metadata:
     lodash: ~4.17.5
     prop-types: ^15.6.1
     query-string: ^7.1.1
-    react: ^17.0.0
-    react-dom: ^17.0.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
     react-hook-form: ^7.40.0
     react-is: ^17.0.2
     react-query: ^3.32.1
@@ -21791,8 +21771,8 @@ __metadata:
     ra-core: ^4.8.2
     ra-data-fakerest: ^4.8.2
     ra-ui-materialui: ^4.8.2
-    react: ^17.0.0
-    react-dom: ^17.0.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
     react-hook-form: ^7.40.0
     rimraf: ^3.0.2
     typescript: ^4.4.0
@@ -21842,9 +21822,9 @@ __metadata:
     papaparse: ^5.3.0
     prop-types: ^15.6.1
     ra-data-local-storage: ^4.8.2
-    react: ^17.0.0
+    react: ^18.0.0
     react-admin: ^4.8.2
-    react-dom: ^17.0.0
+    react-dom: ^18.0.0
     react-dropzone: ^12.0.4
     react-query: ^3.32.1
     react-router: ^6.1.0
@@ -21881,8 +21861,8 @@ __metadata:
     ra-core: ^4.8.2
     ra-i18n-polyglot: ^4.8.2
     ra-language-english: ^4.8.2
-    react: ^17.0.0
-    react-dom: ^17.0.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
     react-dropzone: ^12.0.4
     react-error-boundary: ^3.1.4
     react-hook-form: ^7.40.0
@@ -21994,19 +21974,19 @@ __metadata:
     "@types/faker": ^5.1.7
     "@types/jest": ^26.0.19
     "@types/lodash": ~4.14.168
-    "@types/react": ^17.0.20
+    "@types/react": ^18.0.0
     "@types/react-beautiful-dnd": ^13.0.0
-    "@types/react-dom": ^17.0.9
+    "@types/react-dom": ^18.0.0
     clsx: ^1.1.1
     date-fns: ^2.19.0
     faker: ~5.4.0
     lodash: ~4.17.5
     prop-types: ^15.7.2
     ra-data-fakerest: ^4.0.0
-    react: ^17.0.0
+    react: ^18.0.0
     react-admin: ^4.0.0
     react-beautiful-dnd: ^13.0.0
-    react-dom: ^17.0.0
+    react-dom: ^18.0.0
     react-error-boundary: ^3.1.4
     react-router: ^6.1.0
     react-router-dom: ^6.1.0
@@ -22031,7 +22011,8 @@ __metadata:
     "@storybook/react": ^6.4.19
     "@storybook/testing-react": ^1.2.4
     "@types/jest": ^26.0.19
-    "@types/react": ^17.0.20
+    "@types/react": ^18.0.0
+    "@types/react-dom": ^18.0.0
     "@typescript-eslint/eslint-plugin": ^5.9.1
     "@typescript-eslint/parser": ^5.9.1
     concurrently: ^5.1.0
@@ -22052,8 +22033,8 @@ __metadata:
     lolex: ~2.3.2
     prettier: ~2.1.1
     raf: ~3.4.1
-    react: ^17.0.0
-    react-dom: ^17.0.0
+    react: ^18.0.0
+    react-dom: ^18.0.0
     ts-jest: ^26.4.4
     typescript: ^4.4.0
     wait-on: ^3.2.0
@@ -22222,20 +22203,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-dom@npm:^17.0.0":
-  version: 17.0.2
-  resolution: "react-dom@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-    scheduler: ^0.20.2
-  peerDependencies:
-    react: 17.0.2
-  checksum: 51abbcb72450fe527ebf978c3bc989ba266630faaa53f47a2fae5392369729e8de62b2e4683598cbe651ea7873cd34ec7d5127e2f50bf4bfe6bd0c3ad9bddcb0
-  languageName: node
-  linkType: hard
-
-"react-dom@npm:^18.2.0":
+"react-dom@npm:^18.0.0, react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
   dependencies:
@@ -22711,17 +22679,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react@npm:^17.0.0":
-  version: 17.0.2
-  resolution: "react@npm:17.0.2"
-  dependencies:
-    loose-envify: ^1.1.0
-    object-assign: ^4.1.1
-  checksum: 07ae8959acf1596f0550685102fd6097d461a54a4fd46a50f88a0cd7daaa97fdd6415de1dcb4bfe0da6aa43221a6746ce380410fa848acc60f8ac41f6649c148
-  languageName: node
-  linkType: hard
-
-"react@npm:^18.2.0":
+"react@npm:^18.0.0, react@npm:^18.2.0":
   version: 18.2.0
   resolution: "react@npm:18.2.0"
   dependencies:
@@ -24073,10 +24031,10 @@ __metadata:
     ra-input-rich-text: ^4.8.2
     ra-language-english: ^4.8.2
     ra-language-french: ^4.8.2
-    react: ^17.0.0
+    react: ^18.0.0
     react-admin: ^4.8.2
     react-app-polyfill: ^1.0.4
-    react-dom: ^17.0.0
+    react-dom: ^18.0.0
     react-hook-form: ^7.40.0
     react-query: ^3.32.1
     react-router: ^6.1.0
@@ -25651,8 +25609,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "tutorial@workspace:examples/tutorial"
   dependencies:
-    "@types/react": ^18.0.22
-    "@types/react-dom": ^18.0.7
+    "@types/react": ^18.0.0
+    "@types/react-dom": ^18.0.0
     "@vitejs/plugin-react": ^2.2.0
     ra-data-json-server: ^4.5.0
     react: ^18.2.0
