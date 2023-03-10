@@ -109,6 +109,7 @@ export const ReferenceArrayField: FC<ReferenceArrayFieldProps> = props => {
 ReferenceArrayField.propTypes = {
     ...fieldPropTypes,
     className: PropTypes.string,
+    // @ts-ignore
     children: PropTypes.node,
     label: fieldPropTypes.label,
     record: PropTypes.any,
@@ -177,6 +178,7 @@ export const ReferenceArrayFieldView: FC<ReferenceArrayFieldViewProps> = props =
 
 ReferenceArrayFieldView.propTypes = {
     className: PropTypes.string,
+    // @ts-ignore
     children: PropTypes.node,
     reference: PropTypes.string.isRequired,
 };

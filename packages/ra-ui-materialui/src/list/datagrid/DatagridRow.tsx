@@ -229,6 +229,7 @@ const DatagridRow: FC<DatagridRowProps> = React.forwardRef((props, ref) => {
 });
 
 DatagridRow.propTypes = {
+    // @ts-ignore
     children: PropTypes.node,
     className: PropTypes.string,
     // @ts-ignore

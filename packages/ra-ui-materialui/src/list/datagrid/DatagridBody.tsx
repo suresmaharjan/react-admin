@@ -63,6 +63,7 @@ const DatagridBody: FC<DatagridBodyProps> = React.forwardRef(
 
 DatagridBody.propTypes = {
     className: PropTypes.string,
+    // @ts-ignore
     children: PropTypes.node,
     // @ts-ignore
     data: PropTypes.arrayOf(PropTypes.object).isRequired,

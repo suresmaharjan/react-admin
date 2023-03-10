@@ -47,7 +47,7 @@ export const useConfigureAdminRouterFromChildren = (
 
     // Whenever children are updated, update our custom routes and resources
     const [routesAndResources, status] = useRoutesAndResourcesFromChildren(
-        children,
+        children as ReactNode,
         permissions,
         isLoading
     );
@@ -109,7 +109,9 @@ const useRoutesAndResourcesFromChildren = (
                     );
                 } else {
                     mergeRoutesAndResources(
-                        getRoutesAndResourceFromNodes(childrenFuncResult)
+                        getRoutesAndResourceFromNodes(
+                            childrenFuncResult as ReactNode
+                        )
                     );
                     setStatus('ready');
                 }

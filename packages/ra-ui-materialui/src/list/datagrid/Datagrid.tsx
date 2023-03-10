@@ -292,6 +292,7 @@ Datagrid.propTypes = {
     body: PropTypes.oneOfType([PropTypes.element, PropTypes.elementType]),
     // @ts-ignore-line
     bulkActionButtons: PropTypes.oneOfType([PropTypes.bool, PropTypes.element]),
+    // @ts-ignore
     children: PropTypes.node.isRequired,
     className: PropTypes.string,
     sort: PropTypes.exact({

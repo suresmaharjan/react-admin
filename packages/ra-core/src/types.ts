@@ -314,7 +314,7 @@ export type LoginComponent = ComponentType<{}> | ReactElement<any>;
 export type DashboardComponent = ComponentType<WithPermissionsChildrenParams>;
 
 export interface CoreLayoutProps {
-    children?: ReactNode;
+    children?: AdminChildren;
     dashboard?: DashboardComponent;
     menu?: ComponentType<{
         hasDashboard?: boolean;

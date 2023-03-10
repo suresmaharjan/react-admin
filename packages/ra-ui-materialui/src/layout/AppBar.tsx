@@ -112,6 +112,7 @@ export const AppBar: FC<AppBarProps> = memo(props => {
 });
 
 AppBar.propTypes = {
+    // @ts-ignore
     children: PropTypes.node,
     className: PropTypes.string,
     color: PropTypes.oneOf([

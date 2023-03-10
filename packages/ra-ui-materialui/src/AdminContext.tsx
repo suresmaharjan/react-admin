@@ -8,7 +8,9 @@ export const AdminContext = (props: CoreAdminContextProps) => {
     const { theme = defaultTheme, children, ...rest } = props;
     return (
         <CoreAdminContext {...rest}>
-            <ThemeProvider theme={theme}>{children}</ThemeProvider>
+            <ThemeProvider theme={theme}>
+                <>{children}</>
+            </ThemeProvider>
         </CoreAdminContext>
     );
 };

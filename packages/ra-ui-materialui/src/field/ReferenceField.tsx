@@ -78,6 +78,7 @@ export const ReferenceField: FC<ReferenceFieldProps> = props => {
 };
 
 ReferenceField.propTypes = {
+    // @ts-ignore
     children: PropTypes.node,
     className: PropTypes.string,
     cellClassName: PropTypes.string,

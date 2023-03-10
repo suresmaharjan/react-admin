@@ -152,6 +152,7 @@ MenuItemLink.propTypes = {
     className: PropTypes.string,
     leftIcon: PropTypes.element,
     onClick: PropTypes.func,
+    // @ts-ignore
     primaryText: PropTypes.node,
     to: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
     sidebarIsOpen: PropTypes.bool,

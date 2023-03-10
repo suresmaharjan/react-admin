@@ -88,7 +88,7 @@ React-admin requires a valid dataProvider function to work.`);
                                 <I18nContextProvider value={i18nProvider}>
                                     <NotificationContextProvider>
                                         <ResourceDefinitionContextProvider>
-                                            {children}
+                                            <>{children}</>
                                         </ResourceDefinitionContextProvider>
                                     </NotificationContextProvider>
                                 </I18nContextProvider>
