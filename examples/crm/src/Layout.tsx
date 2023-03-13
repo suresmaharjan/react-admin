@@ -23,6 +23,6 @@ const Layout = ({ children }: LayoutProps) => (
 
 export interface LayoutProps
     extends CoreLayoutProps,
-        Omit<HtmlHTMLAttributes<HTMLDivElement>, 'title'> {}
+        Omit<HtmlHTMLAttributes<HTMLDivElement>, 'title' | 'children'> {}
 
 export default Layout;
