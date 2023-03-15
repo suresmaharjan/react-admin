@@ -6,7 +6,7 @@ import { RaRecord, warning } from 'ra-core';
 
 import { PageTitleConfigurable } from './PageTitleConfigurable';
 
-export const Title = (props: TitleProps) => {
+export const Title = (props: TitleProps): JSX.Element => {
     const { defaultTitle, title, preferenceKey, ...rest } = props;
     const container =
         typeof document !== 'undefined'
