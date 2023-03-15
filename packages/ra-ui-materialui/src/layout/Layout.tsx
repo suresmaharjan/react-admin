@@ -71,11 +71,10 @@ export const Layout = (props: LayoutProps) => {
 };
 
 export interface LayoutProps
-    extends Omit<CoreLayoutProps, 'children'>,
+    extends CoreLayoutProps,
         Omit<HtmlHTMLAttributes<HTMLDivElement>, 'title'> {
     appBar?: ComponentType<AppBarProps>;
     className?: string;
-    children: ReactNode;
     error?: ComponentType<ErrorProps>;
     menu?: ComponentType<MenuProps>;
     sidebar?: ComponentType<{ children: ReactNode }>;

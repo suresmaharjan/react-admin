@@ -123,6 +123,7 @@ CoreAdminRoutes.defaultProps = {
     customRoutes: [],
 };
 
+//@ts-ignore TODO figure out how to fix this properly
 export interface CoreAdminRoutesProps extends CoreLayoutProps {
     layout: LayoutComponent;
     catchAll: CatchAllComponent;
